@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 0px 0px;
+  position: relative;
+}
+
+.HTop {
+  width: 100%; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: -1px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the left */
+  text-align: center;
+}
+
+.header-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('/public/HeaderTop.png') no-repeat center center;
+  background-size: contain; /* Maintain original dimensions */
+  height: 102px;
+  position: relative;
+}
+
+.header-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  background-color: #346f32;
+  padding: 5px 40px;
+  margin-left: -50px; 
+}
+
+.header-bottom a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 50px; 
+}
+
+.header-bottom a:hover {
+  text-shadow: 2px 2px 2px #769776;
+}
+
+.analytic-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: #346f32;
+  font-size: 60px; /* Adjust font size as needed */
+}

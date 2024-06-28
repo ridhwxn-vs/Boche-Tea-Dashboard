@@ -1,0 +1,117 @@
+.welcome-container {
+    display: flex;
+    justify-content: center; /* Horizontally center align */
+    align-items: center; /* Vertically center align */
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 100%; /* Use full width */
+    max-width: 1000px; /* Maximum width as needed */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(88, 88, 88, 0.1);
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.welcome-image {
+  width: 289px; /* Adjust size as needed */
+  height: 441px; /* Maintain aspect ratio */
+  margin:20px;
+}
+
+.welcome-head {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 2px #5d635d;
+    font-size: 42px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+.welcome-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 536px;
+  margin: 20px;
+  height: 441px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(88, 88, 88, 0.1);
+}
+
+.date-picker {
+    border-radius: 8px;
+    font-size: 24px;
+    box-shadow: 0 0 10px #f2f2f2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center
+}
+
+.date-picker label {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 5px;
+    margin-right: -120px;
+}
+
+.date-picker input {
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+}
+.para-text {
+    font-family: 'Ubuntu', sans-serif;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 10px;
+    width:400px;
+  }
+
+  .from-to-text {
+    font-family: 'Ubuntu', sans-serif;
+    color: #333;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -160px;
+    margin-bottom: 10px;
+    width:400px;
+  }
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  width:200px;
+  height: auto;
+  background-color: #fb641b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #a54312;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+button:hover {
+  background-color: #ca5317;
+}
+
