@@ -49,10 +49,6 @@ Or conversely go to : https://boche-tea-analytics-dashboard.netlify.app/ to view
 
 The application is deployed on Netlify. Any changes pushed to the main branch will automatically trigger a new build and deployment.
 
-## Contributing
-
-If you'd like to contribute to the project, please fork the repository and create a pull request. We welcome all contributions that improve the functionality or user experience.
-
 ## License
 
 This project is licensed under the MIT License.
